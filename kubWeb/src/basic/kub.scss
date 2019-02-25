@@ -1,0 +1,136 @@
+.kub {
+	.header_di {
+		height: 75px;
+		width: 100%;
+	}
+	.aboutKub {
+		width: 100%;
+		height: 500px;
+		.item {
+			background-image:url(../../../assets/img/about.jpg);
+			width: 100%;
+			height: 500px;
+		    background-size: cover;
+		    background-position: center;
+		    background-repeat: no-repeat;
+		    position: relative;
+		    .containerkub {
+		    	position: absolute;
+			    top: 35%;
+			    // -webkit-transform: translate(-50%, -50%);
+			    // transform: translate(-50%, -50%);
+			    left: 18%;
+			    padding: 0px;
+			    &:hover {
+			    	.title {
+			    		.line {
+			    			width: 50px;
+			    		}
+			    	}
+			    }
+			    .title {
+			    	height: 60px;
+				    font-size: 24px;
+				    position: relative;
+				    margin: 0;
+				    font-weight: normal;
+				    color:#fff;
+				    .line {
+				    	display: inline-block;
+					    position: absolute;
+					    bottom: 0;
+					    left: 0;
+					    width: 100px;
+					    height: 1px;
+					    background-color: #2e2d33;
+					    background: #fff;
+					    -webkit-transition: width .5s ease;
+					    transition: width .5s ease;
+				    }
+			    }
+			    .desc {
+			    	margin: 20px 0;
+				    width: 640px;
+				    line-height: 2;
+				    color: #fff;
+			    }
+		    }
+		}
+	}
+	.met-show {
+	    padding: 30px 0;
+	    background: #fff;
+	    word-break: break-all;
+	    .containerCon {
+	    	max-width: 70%;
+	    	padding-right: 15px;
+		    padding-left: 15px;
+		    margin-right: auto;
+		    margin-left: auto;
+		    .met-editor {
+			    padding: 30px;
+			    background: #fff;
+			    width: 100%;
+			    max-width: 100%;
+			    font-size: 16px;
+			    font-weight: 300;
+			    line-height: 1.8;
+			    color: #222;
+			    word-wrap: break-word;
+			    font-family: Arial, 微软雅黑;
+			    white-space: normal;
+			}
+	    }
+	}
+	.met-show-class1 {
+		.item {
+			height: 500px;
+		    background-size: cover;
+		    background-position: center;
+		    background-repeat: no-repeat;
+		    position: relative;
+		    background-image: url(../../../assets/img/yang.jpg);
+	        .containerYang {
+		    	position: absolute;
+			    top: 35%;
+			    // -webkit-transform: translate(-50%, -50%);
+			    // transform: translate(-50%, -50%);
+			    left: 18%;
+			    padding: 0px;
+			    &:hover {
+			    	.title {
+			    		.line {
+			    			width: 50px;
+			    		}
+			    	}
+			    }
+			    .title {
+			    	height: 60px;
+				    font-size: 24px;
+				    position: relative;
+				    margin: 0;
+				    font-weight: normal;
+				    color:#fff;
+				    .line {
+				    	display: inline-block;
+					    position: absolute;
+					    bottom: 0;
+					    left: 0;
+					    width: 100px;
+					    height: 1px;
+					    background-color: #2e2d33;
+					    background: #fff;
+					    -webkit-transition: width .5s ease;
+					    transition: width .5s ease;
+				    }
+			    }
+			    .desc {
+			    	margin: 20px 0;
+				    width: 640px;
+				    line-height: 2;
+				    color: #fff;
+			    }
+		    }
+		}
+	}
+}

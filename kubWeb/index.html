@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>可优比官方网站-可优比母婴用品有限公司</title>
+    <!-- <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"> -->
+    <meta name="keywords" content="KUB,可优比,纸尿裤,棉柔巾,湿巾,婴儿床,婴儿床垫,推车,婴儿餐具,母婴用品,围栏,婴儿睡袋" />
+    <meta name="description" content="kub可优比作为一个全品类孕婴童生态品牌，不断加强与妈妈的情感联结，全方位解决妈妈育儿痛点，并提供高颜值、高品质、高性价比的产品和服务" />
+    <link rel="icon" href="./static/img/kub.ico" type="img/x-ico" />
+    <link rel="stylesheet" type="text/css" href="//unpkg.com/animate.css@3.5.2">
+    <link rel="stylesheet" type="text/css" href="./src/basic/fullpage.css">
+    
+</head>
+<body>
+<div id="app"></div>
+   <script src="./static/js/fullpage.js"></script> 
+   <script src="https://webapi.amap.com/maps?v=1.4.10&key=c7422b39dc433e2503b0ad338321924c"></script>
+   <!-- <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.2&key=e5bb1ebbf883c932a735a031af3430cc"></script> -->
+   <script type="text/javascript">
+        var AppConfig = {
+            hUrl: "http://www.kubbaby.com"
+        }
+        function HGetHashUrl(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+            var HashCan = window.location.hash;
+            HashCan = HashCan.split("?");
+            if (HashCan.length >= 2) {
+                HashCan = "?" + HashCan[1];
+                var r = HashCan.substr(1).match(reg);
+                if (r != null) return decodeURIComponent(r[2]);
+                return null;
+            } else {
+                return null;
+            }
+        }
+
+   </script>
+</body>
+</html>
